@@ -1,7 +1,7 @@
 import sys
 
 
-def Solution(*args):
+def solution(*args):
     lst = []
     i = 1
     while True:
@@ -13,4 +13,4 @@ def Solution(*args):
 
 if __name__ == '__main__':
     a, b = int(sys.argv[1]), int(sys.argv[2])
-    print(''.join(map(str, Solution(a, b))))
+    print(''.join(map(str, solution(a, b))))
